@@ -1,12 +1,12 @@
 pipeline {
   agent any
   triggers {
-   cron('H/15 * * * *')
+   cron('H/1 * * * *')
   }
   stages {
     stage('echo') {
       steps {
-        echo 'WELCOME###\nhello from the trigger@@@\n@@\n@@\n@@\n@@\n@@\n'
+	echo date +'%T'
       }
     }
 
