@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-	echo 'welcome ya 3m'
+	echo 'welcome ya 3m.'
       }
     }
 
