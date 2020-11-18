@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-	echo date +'%T'
+	echo 'welcome ya 3m'
       }
     }
 
